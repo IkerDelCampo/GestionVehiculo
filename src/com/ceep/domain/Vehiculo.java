@@ -11,9 +11,9 @@ package com.ceep.domain;
  */
 public class Vehiculo {
     //Atributos
-    String matricula, marca, modelo, color;
-    double tarifa;
-    boolean disponible;
+    private String matricula, marca, modelo, color;
+    private double tarifa;
+    private boolean disponible;
     //Constructor
 
     public Vehiculo(String matricula, String marca, String modelo, String color, double tarifa, boolean disponible) {
