@@ -14,6 +14,7 @@ public class Vehiculo {
     private String matricula, marca, modelo, color;
     private double tarifa;
     private boolean disponible;
+    public static int contador=0;
     //Constructor
 
     public Vehiculo(String matricula, String marca, String modelo, String color, double tarifa, boolean disponible) {
@@ -23,6 +24,7 @@ public class Vehiculo {
         this.color = color;
         this.tarifa = tarifa;
         this.disponible = disponible;
+        this.contador= contador+1;
     }
     
     //getter

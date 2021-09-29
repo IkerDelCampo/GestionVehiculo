@@ -17,5 +17,11 @@ public class PruebaGestion {
         System.out.println(Coche1);
         Coche1.setDisponible(false);
         System.out.println(Coche1);
+        System.out.println("Número de vehiculos "+Vehiculo.contador);
+        Vehiculo Coche2 = new Vehiculo("12345ABC","KIA","C2","AZUL",2000,true);
+        Vehiculo Coche3 = new Vehiculo("12345ABC","KIA","C2","AZUL",2000,true);
+        Vehiculo Coche4 = new Vehiculo("12345ABC","KIA","C2","AZUL",2000,true);
+        Vehiculo Coche5 = new Vehiculo("12345ABC","KIA","C2","AZUL",2000,true);
+        System.out.println("Número de vehiculos "+Vehiculo.contador);
     }
 }
